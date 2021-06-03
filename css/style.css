@@ -1,0 +1,82 @@
+
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.header {
+  /* background-color: #868686; */
+  background-image: url("../images/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.header .navbar-toggler {
+  border-color: #fff !important;
+}
+
+.header .navbar-toggler:focus {
+  box-shadow: 0 0 10px #fff !important;
+}
+
+.header__logo-img {
+  height: 80px;
+  width: 80px;
+}
+
+.header .nav-item .nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.header .nav-item .active {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.header__btn-search {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header__btn-search.focus,
+.header__btn-search:focus {
+  box-shadow: none !important;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header__input-search.focus,
+.header__input-search:focus {
+  box-shadow: none !important;
+}
+
+main{
+    height: 500px;
+}
+
+.footer>div:first-child{
+    border-top: 1px solid #969696;
+}
+
+.footer__link{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer__link__img{
+    height: 20px;
+    width: 20px;
+}
+
+.footer__copyright{
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer select{
+    border: none;
+}
